@@ -1,0 +1,94 @@
+.zonyellowbg {
+    background-color: #FEBD69;
+}
+
+.zonyellowcolor {
+    color: #FEBD69;
+}
+
+.zonblackbg {
+    background-color: #131A22;
+}
+
+.zonblackcolor {
+    color: #131A22;
+}
+
+.zonoffblackbg {
+    background-color: #232F3E;
+}
+
+.zonoffblackcolor {
+    color: #232F3E;
+}
+
+.zononblackkbg {
+    background-color: #37475A;
+}
+
+.zononblackcolor {
+    color: #37475A;
+}
+
+.navwidth {
+    width: 8%;
+}
+
+.loadwidth {
+    width: 30%;
+}
+
+.linkhover:hover {
+    border: #fff solid 1px;
+    border-radius: 5%;
+    transition: 0.5s 0.1s;
+}
+
+.texthover:hover {
+    color: #FEBD69 !important;
+    transition: 0.5s 0.1s;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+}
+
+.catslider {
+    border: #FEBD69 solid 1px;
+}
+
+.addbtn {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.contdiv:hover {
+    border: #FEBD69 solid 1px;
+    cursor: pointer;
+}
+
+.prodiv:hover .addbtn {
+    transform: translateY(0%);
+    opacity: 1;
+    transition: transform 1s, opacity 1.5s;
+}
+
+.marker12::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 77px;
+    width: 2px;
+    height: 22px;
+    background-color: rgb(137, 173, 185);
+    z-index: 2;
+}
+
+.smallfont {
+    font-size: xx-small;
+}
+
+.zindex {
+    z-index: 9999;
+}
